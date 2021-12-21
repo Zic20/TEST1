@@ -113,7 +113,7 @@
 
   <div class="modal fade text-center" role="dialog" tabindex="-1" id="imageModal">
     <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
-      <div class="modal-content">
+      <div class="modal-content bg-transparent">
           <div class="modal-body">
               <div class="container">
                   <div class="row">
@@ -140,11 +140,6 @@
         modalImage.src = e.target.src;
         // modalImage.style.height = "auto";
         modalImage.style.width = "100%";
-        console.log(modalImage);
-        console.log(imageModal);
-        for(let j = 0; imageContainer.children.length;j++){
-          imageContainer.children[i].remove()
-        }
         let div = document.createElement('div');
         div.appendChild(modalImage);
         imageContainer.appendChild(div);
