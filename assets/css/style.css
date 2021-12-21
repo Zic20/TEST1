@@ -1,0 +1,93 @@
+
+
+/* #mainNav {
+    padding-top: 0 !important;
+} */
+
+.masthead {
+    background: url(../img/logo.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain !important;
+    color: black !important;
+    height: 20%;
+    margin: 8%;
+}
+
+#services,#about {
+    background: rgb(235, 233, 233);
+}
+
+.navbar{
+    background: black !important;
+}
+
+h4 {
+    font-size: medium;
+}
+
+#contact{
+    background: black;
+}
+
+#partners img {
+    height: 100%;
+}
+
+#footer-text {
+    color: white !important;
+}
+.portfolio-item {
+   /* border: 1px solid rgb(156, 156, 156); */
+   /* padding:0; */
+   margin: px !important;
+}
+
+/* Contact Page CSS*/
+
+#contact-head {
+    margin-top: 15%;
+}
+.contact-items {
+    text-align: center;
+}
+.contact-list {
+    list-style: none;
+}
+.contact-list li{
+    margin-top: .3125rem /* 5px -> .3125rem */
+}
+.contact-link {
+    color: black;
+}
+.card {
+    margin-bottom: 15px;
+}
+
+.partner {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.fad{
+    size: 9px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+@media screen and (max-width: 767px){
+.partner {
+    margin-bottom: 5%;
+}
+}
+
+#portfolio,#services,#about {
+    padding-top: 3.125rem /* 50px -> 3.125rem */;
+    padding-bottom: 3.125rem /* 50px -> 3.125rem */;
+}
+
+.list-group-item {
+    margin-bottom: .625rem /* 10px -> .625rem */ !important;
+}
